@@ -5,7 +5,7 @@ class Application
 
     time_1 = Time.now
 
-    if ("#{time_1}" < 12:00:00) && ("#{time_1}" < 24:00:00)
+    if ("#{time_1}" < 12:00) && ("#{time_1}" < 24:00)
       resp.write "Good Morning!"
 
     else
